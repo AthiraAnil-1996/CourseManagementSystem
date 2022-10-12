@@ -585,20 +585,6 @@ app.post("/api/batchaction", (req, res) => {
     });
 });
 
-
-app.get("/api/notifications",(req,res)=>{
-  courseData.find().then((data)=>{
-    console.log(data)
-    res.send(data)
-  })
-})
-
-
-
-
-
-
-
 app.get('/*', (req, res)=> {
   res.sendFile(path.join(__dirname + '/dist//frontend/index.html'))})
 

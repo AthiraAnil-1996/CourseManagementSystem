@@ -1,13 +1,12 @@
 {
-  "name": "coursemanagement",
+  "name": "idgenerator",
   "version": "1.0.0",
-  "description": "Unique System",
+  "description": "Unique Identifier Generator",
   "main": "index.js",
   "scripts": {
-    "start":"index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Athira",
+  "author": "sajith jayaram",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

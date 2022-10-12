@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <div class="container">
+
+        <div class="notificationmsg">
+           <div class="d-flex justify-content-center homelist">
+               <div class="trainerlist">
+                  <div *ngFor="let i of trainerData">
+                     <div class="listbox">
+                    <h5 class="pb-3">Course: {{i.course}}</h5>
+                    <div class="pb-2 pt-2 mbl"><b>Name of Professor:{{i.name}}</b></div>
+                    <div> <b>Message : {{i.message}}</b></div>
+                    <div class="mt-3"><b>Date</b>&nbsp;:&nbsp;{{i.date}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
